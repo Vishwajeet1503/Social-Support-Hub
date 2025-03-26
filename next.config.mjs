@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    output: 'standalone',   // Static export
+    trailingSlash: true,  // Ensures trailing slashes
+  };
+  
+  module.exports = nextConfig;  // CommonJS export
+  
