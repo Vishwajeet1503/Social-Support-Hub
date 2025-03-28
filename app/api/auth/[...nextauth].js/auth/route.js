@@ -10,7 +10,7 @@ import User from '@/models/User';
 import Payment from '@/models/Payment';
  
 
-export const authoptions =  NextAuth({
+export const dynamic =  NextAuth({
     providers: [
       // OAuth authentication providers...
       GitHubProvider({
